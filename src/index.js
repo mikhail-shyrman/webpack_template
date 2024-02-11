@@ -1,5 +1,7 @@
-import './js/common'
-import './css/main.css'
-import './sass/main.sass'
+import "./index.html";
+import "./index.scss";
 
-// import Bootstrap from 'bootstrap'
+let a = 5;
+let b = 2;
+
+console.log(a + b);
