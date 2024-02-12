@@ -1,4 +1,13 @@
 body {
-  color: $textColor;
-  background-color: $bgColor;
+  padding: 15px;
+  color: $mainFontColor;
+  font-family: $mainFont;
+  background-color: $neutralColorSecond;
+}
+
+.btc {
+  width: 25px;
+  height: 25px;
+  background-image: url("images/coins/btc.svg");
+  background-size: cover;
 }
