@@ -1,13 +1,9 @@
-body {
-  padding: 15px;
+#exchanger {
+  min-height: 100px;
   color: $mainFontColor;
-  font-family: $mainFont;
-  background-color: $neutralColorSecond;
-}
-
-.btc {
-  width: 25px;
-  height: 25px;
-  background-image: url("images/coins/btc.svg");
-  background-size: cover;
+  font-size: $mainFontSize;
+  font-weight: $mainFontWeight;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  overflow: hidden;
 }

@@ -1,20 +1,14 @@
-import { mult } from "./js/mult";
-import { sum } from "./js/sum";
 import "./index.html";
 import "./index.scss";
-import eth from "./images/coins/eth.svg";
+import { calculatorHead } from "./js/calculatorHead";
+import { calculatorBody } from "./js/calculatorBody";
+import { calculatorFooter } from "./js/calculatorFooter";
 
-const calcTotal = () => {
-  return mult(5, 2) + sum(5, 2);
-};
+const exchangerWrapper = document.querySelector("#exchanger");
 
-const imageWrapper = document.querySelector(".eth");
-const img = new Image();
-img.src = eth;
-img.width = 25;
-imageWrapper.append(img);
-
-console.log(mult(5, 2));
-console.log(sum(5, 2));
-console.log(calcTotal());
+document.addEventListener("DOMContentLoaded", function() {
+  calculatorHead(exchangerWrapper);
+  calculatorBody(exchangerWrapper);
+  calculatorFooter(exchangerWrapper);
+});
 
